@@ -25,6 +25,10 @@ header {
     text-align: center;
 }
 
+.carousel-inner{
+    max-height:80vh; object-fit:cover;
+    overflow: hidden;
+}
 footer {
     margin-top: auto;
     color: var(--fourth-color);
