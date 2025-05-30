@@ -19,14 +19,13 @@ body {
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-color: var(--primary-color);
 }
 
 .navbar {
-    min-height:48px;
+    min-height: 48px;
 }
+
 .navbar-brand {
     color: var(--fourth-color);
     font-family: "Lexend", sans-serif;
@@ -41,12 +40,16 @@ body {
     max-height: 36px;
     margin-top: 0;
     object-fit: contain;
-    position: relative;
-    height:32px;
-    width:auto;
-    margin-right:12px;
-
+    height: 32px;
+    width: auto;
+    margin-right: 12px;
 }
+
+#hero img {
+    object-fit: cover;
+    object-position: 0 10%;
+}
+
 
 header {
     color: var(--accent-color);
@@ -68,4 +71,32 @@ footer {
 
 footer a {
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    #hero img {
+        object-fit: cover;
+        object-position: 50% 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #hero img {
+        object-fit: cover;
+        object-position: 15% 10%;
+    }
+
+    #nav-container {
+        width: 100%;
+    }
+
 }
