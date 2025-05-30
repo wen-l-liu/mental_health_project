@@ -1,0 +1,17 @@
+/*  Color pallett */
+:root {
+  --primary-color: #C3E8BD; /* Tea green */
+  --secondary-color: #BFE2FF; /* Uranian blue */
+    --tertiary-color: #F4DADA; /* Misty Rose */
+    --accent-color: #9370DB; /* Amethyst */
+    --fourth-color: #136F63; /* Pine Green */
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+
+footer a {
+    text-decoration: none;
+}
