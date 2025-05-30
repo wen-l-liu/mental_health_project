@@ -49,7 +49,7 @@ body {
 
 #hero img {
     object-fit: cover;
-    object-position: 0 10%;
+    object-position: 0 20%;
 }
 
 
@@ -83,7 +83,7 @@ footer a {
 
     #hero img {
         object-fit: cover;
-        object-position: 50% 0%;
+        object-position: 30% 10%;
     }
 }
 
@@ -94,7 +94,7 @@ footer a {
 
     #hero img {
         object-fit: cover;
-        object-position: 15% 10%;
+        object-position: 30% 10%;
     }
 
     #nav-container {
