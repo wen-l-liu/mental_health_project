@@ -20,6 +20,8 @@ body {
 body {
     min-height: 100vh;
     background-color: var(--primary-color);
+    font-family: "zain", sans-serif;
+    font-size: 1.25rem;
 }
 
 .navbar {
