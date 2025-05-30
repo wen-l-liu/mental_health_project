@@ -18,8 +18,16 @@ body {
     background-color: var(--primary-color);
 }
 
+header {
+    color: var(--accent-color);
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
 footer {
     margin-top: auto;
+    color: var(--fourth-color);
 }
 
 footer a {
