@@ -26,7 +26,6 @@ body {
 
 .navbar {
     min-height: 48px;
-    z-index: 1000;
     position: fixed;
     width: 100%;
 }
@@ -89,6 +88,11 @@ header {
 .bg-uranian-blue {
     background-color: var(--secondary-color);
 }
+
+.bg-misty-rose {
+    background-color: var(--tertiary-color);
+}
+
 .carousel-inner {
     max-height: 80vh;
     object-fit: cover;
