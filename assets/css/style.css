@@ -26,6 +26,9 @@ body {
 
 .navbar {
     min-height: 48px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar .nav-link {
