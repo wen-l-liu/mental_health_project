@@ -56,6 +56,8 @@ body {
 #hero img {
     object-fit: cover;
     object-position: 0 20%;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -72,9 +74,11 @@ header {
     top: 50%;
     transform: translate(0, 0);
 }
+
 .shadow-text {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
+
 .carousel-inner {
     max-height: 80vh;
     object-fit: cover;
@@ -97,18 +101,21 @@ footer a {
     }
 
     #hero img {
-        object-fit: cover;
         object-position: 30% 10%;
+    }
+
+    #jumbotron-text {
+        left: 0%;
+        text-align: end !important;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.5rem;
     }
 
     #hero img {
-        object-fit: cover;
         object-position: 30% 10%;
     }
 
@@ -116,4 +123,8 @@ footer a {
         width: 100%;
     }
 
+    #jumbotron-text {
+        left: 0%;
+        text-align: center;
+    }
 }
