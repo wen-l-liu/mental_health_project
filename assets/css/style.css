@@ -79,6 +79,10 @@ header {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
+.bg-tea-green {
+    background-color: var(--primary-color);
+}
+
 .carousel-inner {
     max-height: 80vh;
     object-fit: cover;
