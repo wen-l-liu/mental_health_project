@@ -83,6 +83,9 @@ header {
     background-color: var(--primary-color);
 }
 
+.bg-uranian-blue {
+    background-color: var(--secondary-color);
+}
 .carousel-inner {
     max-height: 80vh;
     object-fit: cover;
