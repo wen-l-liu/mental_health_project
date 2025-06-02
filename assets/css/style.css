@@ -28,6 +28,12 @@ body {
     min-height: 48px;
 }
 
+.navbar .nav-link {
+    color: var(--fourth-color);
+    font-family: "Lexend", sans-serif;
+    font-size: 1rem;
+}
+
 .navbar-brand {
     color: var(--fourth-color);
     font-family: "Lexend", sans-serif;
@@ -60,6 +66,15 @@ header {
     text-align: center;
 }
 
+#jumbotron-text {
+    background: transparent;
+    left: 15%;
+    top: 50%;
+    transform: translate(0, 0);
+}
+.shadow-text {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
 .carousel-inner {
     max-height: 80vh;
     object-fit: cover;
