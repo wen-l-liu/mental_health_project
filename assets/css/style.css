@@ -92,6 +92,10 @@ header {
     overflow: hidden;
 }
 
+#tips-section i {
+    font-size: 2.5rem;
+}
+
 footer {
     margin-top: auto;
     color: var(--fourth-color);
