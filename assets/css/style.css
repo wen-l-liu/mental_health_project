@@ -18,10 +18,10 @@ body {
 }
 
 body {
-    min-height: 100vh;
     background-color: var(--primary-color);
     font-family: "zain", sans-serif;
     font-size: 1.25rem;
+    width: 100%;
 }
 
 .navbar {
@@ -34,6 +34,10 @@ body {
     color: var(--fourth-color);
     font-family: "Lexend", sans-serif;
     font-size: 1rem;
+}
+
+.navbar .nav-link:hover {
+    color: var(--accent-color);
 }
 
 .navbar-brand {
@@ -58,8 +62,6 @@ body {
 #hero img {
     object-fit: cover;
     object-position: 0 20%;
-    height: 100%;
-    width: 100%;
 }
 
 
@@ -70,11 +72,26 @@ header {
     text-align: center;
 }
 
+#hero {
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 20%;
+}
+
 #jumbotron-text {
     background: transparent;
     left: 15%;
     top: 50%;
     transform: translate(0, 0);
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .shadow-text {
