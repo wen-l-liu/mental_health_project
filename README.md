@@ -11,8 +11,9 @@ There is currently no backend functionality.
     - [Key Objectives](#key-objectives)
 - [UX Design](#ux-design)
     - [User Stories](#user-stories)
-    - [Colours](#Colours)
-    - [Wire Frames](#Wire-frames)
+    - [Colour palette](#Colour-palette)
+    - [Wire Frames](#wireframes)
+    - [Fonts](#fonts)
 - [Features](#features)
 - [Deployment / Dependencies](#deployment--dependencies)
 - [Accounts](#accounts)
@@ -41,6 +42,7 @@ This project aims to create an accessible, visually engaging single-page website
 ## UX Design
 
 ### User Stories
+
 [Github project](https://github.com/users/wen-l-liu/projects/6) for planning with user stories
 
 - As a site visitor, I want to see a positive, encouraging message about mental health as soon as I arrive, so that I feel welcomed and supported.
@@ -50,7 +52,8 @@ This project aims to create an accessible, visually engaging single-page website
 - As a site visitor, I want the website to have a consistent, calming design, so that I feel comfortable and supported while browsing.
 - As a site visitor, I want to easily find a way to make a donation, so that I can support the mission of Breathe & Believe and help provide accessible mental health resources to others.
 
-### Colours
+### Colour palette
+
 ![colour palette](documentation/images/breathe-palette.png)
 I wanted soft colours to convey calmness.
 As the project is a single page, I wanted more colours to help create seperation between each section.
@@ -60,8 +63,9 @@ The purple hightlight is only used as a hover link colour change.
 I kept white and black as they are just such versitle colours. Black just stands out from the pastel backgrounds.
 
 ### Fonts
+
 <details>
-<summary>Click to expand CSS Validation Screenshot</summary>
+<summary>Click to expand Google Fonts Screenshot</summary>
 
 ![Google Fonts](documentation/images/google-fonts.jpg)
 </details>
@@ -69,8 +73,9 @@ I used Zain for the main content text as I picked the "calm" category in google 
 I used Lexend for the logo, for its bold boxy-ness, it stands out and is perfect for logo font.
 
 ### Wireframes
+
 <details>
-<summary>Click to expand CSS Validation Screenshot</summary>
+<summary>Click to expand Wireframes</summary>
 
 ![Balsamic Wireframes](documentation/images/Wireframes-breathe.png)
 </details>
