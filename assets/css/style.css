@@ -60,7 +60,7 @@ body {
     margin-right: 12px;
 }
 
-.navbar .donate-btn {
+.navbar #donate-btn {
 font-size: 1.5rem;
 align-items: center;
     background-color: var(--primary-color);
@@ -69,9 +69,25 @@ align-items: center;
     border-radius: 0.25rem;
     margin-top: 2px;
 }
-.navbar .donate-btn:hover {
+.navbar #donate-btn:hover {
     background-color: var(--secondary-color);
     color: var(--accent-color);
+    border: var(--accent-color) 1px solid;
+}
+
+.navbar #contact-btn {
+font-size: 1.5rem;
+align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+    margin-top: 2px;
+}
+.navbar #contact-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: var(--accent-color) 1px solid;
 }
 
 #hero img {

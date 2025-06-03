@@ -54,11 +54,15 @@
                         <a class="nav-link py-1 fw-normal" href="#resource-links">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link py-1 fw-normal" href="#">Ask Us</a>
+                        <!-- Contact Us trigger modal -->
+                        <button id="contact-btn" type="button" class="btn rounded-5 me-2" data-bs-toggle="modal"
+                            data-bs-target="#contact-us-modal">
+                            Contact Us
+                        </button>
                     </li>
                     <li>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn donate-btn rounded-5" data-bs-toggle="modal"
+                        <button id="donate-btn" type="button" class="btn rounded-5" data-bs-toggle="modal"
                             data-bs-target="#donate-modal">
                             Donate
                         </button>
@@ -448,6 +452,39 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact Us Modal Section -->
+        <div class="modal fade modal-lg" id="contact-us-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="contact-us-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <h1 class="modal-title fs-3 px-2" id="contact-us-abel">The Worry Window - Send Us a Message</h1><br>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="p-2 fs-4">We'll get back to you with advice and guidance on what-ever you're dealing with.</p>
+                        <div class="p-2">
+                            <label for="email-input" class="form-label fs-4">Email address</label>
+                            <input type="email" class="form-control" id="email-input"
+                                placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3 p-2">
+                            <label for="topic-input" class="form-label fs-4">Topic</label>
+                            <input type="text" class="form-control" id="topic-input"
+                                placeholder="Any topic, we'll hear you out">
+                        </div>
+                        <div class="mb-3 p-2">
+                            <label for="message-input" class="form-label fs-4">Message</label>
+                            <textarea class="form-control" id="message-input" rows="3" required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class=" btn bg-uranian-blue fs-4">Send it off</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Donate Modal Section -->
         <div class="modal fade" id="donate-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
