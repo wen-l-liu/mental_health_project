@@ -21,6 +21,7 @@ There is currently no backend functionality.
 - [Testing and Validation](#testing-and-validation)
     - [HTML Validation](#HTML-Validation)
     - [CSS Validation](#CSS-Validation)
+    - [Wave Evaluation Tool](#Wave-Evaluation-Tool)
 - [Technology](#technology)
 - [References](#references)
 - [External Resource Links](#external-resource-links)
