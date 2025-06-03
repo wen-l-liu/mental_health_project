@@ -21,7 +21,7 @@ There is currently no backend functionality.
 - [Testing and Validation](#testing-and-validation)
     - [HTML Validation](#HTML-Validation)
     - [CSS Validation](#CSS-Validation)
-    - [Wave Evaluation Tool](#Wave-Evaluation-Tool)
+    - [Wave Evaluation Tool](#wave-evaluation-tool)
 - [Technology](#technology)
 - [References](#references)
 - [External Resource Links](#external-resource-links)
@@ -167,6 +167,7 @@ Copilot was first used to validate code and it found space between the number an
 My style.css file was validated using the W3C CSS Validation Service to ensure there are no syntax errors and that the code adheres to CSS standards.
 
 ### Wave Evaluation Tool
+- [Wave Evaluation Tool](https://wave.webaim.org/)
 
 <details>
 <summary>Click to expand Wave Evaluation Tool Screenshots</summary>
