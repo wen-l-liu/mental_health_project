@@ -282,14 +282,14 @@
 
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                     <div class="col">
-                        <div class="card card-img-top h-100 w-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        <div class="card card-img-top h-100 w-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg align-items-center"
                             style="background-color: #222;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <div class="d-flex flex-column h-100 text-white text-shadow-1">
                                 <div class="mb-4 text-center">
                                     <img src="assets/images/window.jpg" alt="Event" class="img-fluid rounded-4 shadow"
                                         style="object-fit: cover;">
                                 </div>
-                                <h2 class="mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                                <h2 class="mb-4 display-6 lh-1 fw-bold">Open Up and Let the Calm In</h2>
                                 <ul class="d-flex list-unstyled mt-auto">
                                     <li class="me-auto">
                                         <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
@@ -313,8 +313,8 @@
                     </div>
 
                     <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                            style="background-image: url('assets/images/mountain-path.jpg');">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg align-items-center"
+                            style="background-image: url('assets/images/mountain-path.jpg'); object-fit: cover;">
                             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                                 <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to
                                     multiple
@@ -412,41 +412,46 @@
             <div class="container my-5">
                 <h2 class="mb-4 text-center">Helpful Mental Health Resources</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-end">
                         <a href="https://www.mind.org.uk/" target="_blank" class="btn btn-lg w-100" role="button"
-                            rel="noopener" style="background-color: #1300c1; color: #fff;">
-                            Mind UK
+                            rel="noopener" style="background-color: white; color: #1300c1;">
+                            <img src="assets/images/Mind-logo.png" alt="mind.org.uk logo">
+                            <p>Mind UK</p>
                         </a>
                     </div>
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-end">
                         <a href="https://www.mentalhealth.org.uk/" target="_blank" class="btn btn-lg w-100"
                             role="button" rel="noopener" style="background-color: #6e0fee; color: #fff;">
-                            <img src="assets/images/Awareness-week.png" alt="">
+                            <img src="assets/images/Awareness-week.png" alt="mentalhealth.org.uk logo">
                             <p>Mental Health Foundation</p>
                         </a>
                     </div>
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-end">
                         <a href="https://www.nhs.uk/mental-health/" target="_blank" class="btn btn-lg w-100"
                             role="button" rel="noopener" style="background-color: #005eb8; color: #fff;">
-                            NHS Mental Health
+                            <img src="assets/images/nhs-logo.jpeg" alt="NHS logo">
+                            <p>NHS Mental Health</p>
                         </a>
                     </div>
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-end">
                         <a href="https://www.youngminds.org.uk/" target="_blank" class="btn btn-lg w-100" role="button"
                             rel="noopener" style="background-color: #ffff00; color: #191919;">
-                            YoungMinds
+                            <img src="assets/images/YoungMindslogo.png" alt="Young Minds logo">
+                            <p>Mental Health Charity For Children And Young People</p>
                         </a>
                     </div>
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-end">
                         <a href="https://www.samaritans.org/" target="_blank" class="btn btn-lg w-100" role="button"
                             rel="noopener" style="background-color: #84bd00; color: #fff;">
-                            Samaritans
+                            <img src="assets/images/Samaritans-logo.jpg" alt="Samaritans logo">
+                            <p>Available 24/7 via phone, email, and in-person</p>
                         </a>
                     </div>
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center align-items-end">
                         <a href="https://www.headspace.com/" target="_blank" class="btn btn-warning btn-lg w-100"
                             role="button" rel="noopener">
-                            Headspace
+                            <img src="assets/images/Headspace-Logo.png" alt="Headspace logo">
+                            <p>A mindfulness and meditation app designed to help users improve their mental wellbeing</p>
                         </a>
                     </div>
                 </div>
@@ -474,7 +479,8 @@
                                     Please note: We are not a replacement for professional help. If you are in crisis or
                                     need urgent support, contact a qualified mental health professional or emergency
                                     services. Click <a href="https://www.samaritans.org/" target="_blank"
-                                        rel="noopener">here</a> for immediate help.
+                                        rel="noopener" data-toggle="tooltip" data-placement="bottom"
+                                title="Link to Samaritans hotline">here</a> for immediate help.
                                 </small>
                             </p>
                             <div class="p-2">
@@ -496,7 +502,9 @@
                         <div class="modal-footer justify-content-between">
                             <a class="btn bg-misty-rose fs-4"
                                 href="https://www.mind.org.uk/need-urgent-help/using-this-tool/" target="_blank"
-                                aria-label="Opens link to Mind.org.uk with resources to help you now" role="button" data-toggle="tooltip" data-placement="bottom" title="Link to Mind.org.uk with resources to help you now">Need
+                                aria-label="Opens link to Mind.org.uk with resources to help you now" role="button"
+                                data-toggle="tooltip" data-placement="bottom"
+                                title="Link to Mind.org.uk with resources to help you now">Need
                                 Help Now</a>
                             <button type="submit" class=" btn bg-uranian-blue fs-4">Send it off</button>
                         </div>
