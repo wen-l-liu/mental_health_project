@@ -1,5 +1,5 @@
 # Breathe & Believe
-![Preview of Website](/documentation/images/preview-site.jpg)
+![Preview of Website](documentation/images/preview-site.jpg)
 # Introduction
 This is a project to demonstrate my learnings. Built with HTML, CSS, and Bootstrap components, this site seeks to provide helpful mental health tips and resources in an easy-to-navigate format. Keeping things simple with an accessible, and visually appealing single-page website.
 There is currently no backend functionality.
@@ -50,6 +50,17 @@ This project aims to create an accessible, visually engaging single-page website
 
 ## Features
 
+- **Welcoming Hero Section:** A prominent, positive message and calming imagery greets users on arrival.
+- **Beginner-Friendly Tips:** Clear, accessible mental health information and practical advice for managing stress.
+- **Uplifting Quotes:** Affirmations and motivational quotes to encourage and support users.
+- **Curated Resource Links:** Easy access to trusted external mental health resources for further help.
+- **Donation Link:** A visible call-to-action for users who wish to support the mission.
+- **Responsive Design:** Fully functional and visually appealing on all devices, from mobile to desktop.
+- **Accessible Layout:** Uses semantic HTML and accessible color contrasts for inclusivity.
+- **Modern UI Components:** Utilizes Bootstrap for consistent styling, navigation, and layout.
+- **No Login Required:** All content is freely accessible without registration.
+- **Lightweight & Fast:** Loads quickly with minimal dependencies, optimized images, and no backend.
+
 ## Deployment / Dependencies
 ### Deployment
 The site is deployed using [GitHub Pages](https://pages.github.com/), which hosts the static files directly from the repository. No backend server or database is required
@@ -83,11 +94,40 @@ To deploy updates:
 
 ## Testing and Validation
 ### HTML Validation
-#### Tools Used: [W3C Markup Validation Service](https://validator.w3.org/)
-HTML file was validated using the W3C Markup Validation Service to ensure there are no syntax errors and that the code adheres to web standards.
+#### Tools Used:
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- Github Copilot
+Copilot was first used to validate code and it found multiple inconsitent heading levels. I re-adjust heading usage to make sure only one h1 existed on the page, and the rest of the headings followed in correct order. I used Bootstrap Class "fs-1" top ensure text sizing remained the same as before change.
+<details>
+<summary>Click to expand HTML Validation Screenshot</summary>
+
+![HTML Validation Screenshot](documentation/images/html-validation.jpg)
+</details>
+Afterwards, index.html file was validated using the W3C Markup Validation Service to ensure there are no syntax errors and that the code adheres to web standards.
+
 ### CSS Validation
+#### Tools Used:
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- Github Copilot
+Copilot was first used to validate code and it found space between the number and unit for "font-size: 1.25 rem;", I removed the space and fixed the issue.
+<details>
+<summary>Click to expand CSS Validation Screenshot</summary>
+
+![CSS Validation Screenshot](documentation/images/css-validation.jpg)
+</details>
+My style.css file was validated using the W3C CSS Validation Service to ensure there are no syntax errors and that the code adheres to CSS standards.
 
 ## References
+- [Mental Health Foundation](https://www.mentalhealth.org.uk/) – UK based charity promoting good mental health
+- [Mind UK](https://www.mind.org.uk/) – Mental health charity providing advice and support
+- [NHS Mental Health](https://www.nhs.uk/mental-health/) UK National Health Service, medical advice
+- [Youngminds](https://www.youngminds.org.uk/) Mental health charity for children, young people and their parents
+- [Samaritans](https://www.samaritans.org/) a charity that offers free, confidential listening service to people in distress
+- [Headspace](https://www.headspace.com/) a mindfulness and meditation app 
+
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) – Official Bootstrap documentation
+- [Font Awesome Documentation](https://docs.fontawesome.com/) – Official Font Awesome documentation
+- [Google Fonts](https://fonts.google.com/) – Web fonts used in the project
 
 ## External Resource Links
 - [squoosh.app](https://squoosh.app/) - A tool for compressing and resizing images, squashing file size
