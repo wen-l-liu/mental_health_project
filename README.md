@@ -59,6 +59,15 @@ The darker pine green is used for Logo colour and navbar links.
 The purple hightlight is only used as a hover link colour change.
 I kept white and black as they are just such versitle colours. Black just stands out from the pastel backgrounds.
 
+### Fonts
+<details>
+<summary>Click to expand CSS Validation Screenshot</summary>
+
+![Google Fonts](documentation/images/google-fonts.jpg)
+</details>
+I used Zain for the main content text as I picked the "calm" category in google fonts and this was suggested.
+I used Lexend for the logo, for its bold boxy-ness, it stands out and is perfect for logo font.
+
 ### Wireframes
 <details>
 <summary>Click to expand CSS Validation Screenshot</summary>
