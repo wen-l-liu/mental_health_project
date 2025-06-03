@@ -165,6 +165,16 @@ Copilot was first used to validate code and it found space between the number an
 </details>
 My style.css file was validated using the W3C CSS Validation Service to ensure there are no syntax errors and that the code adheres to CSS standards.
 
+### Wave Evaluation Tool
+
+<details>
+<summary>Click to expand Wave Evaluation Tool Screenshots</summary>
+
+![Wave Evaluation Tool Screenshot 1](documentation/images/wave-tool1.jpg)
+![Wave Evaluation Tool Screenshot 2](documentation/images/wave-tool2.png)
+</details>
+
+Wave tool shows one contrast error, but it was for the colours used by the charity. I may have to go back to change nad darken their logo to improve contrast scores.
 ## References
 - [Mental Health Foundation](https://www.mentalhealth.org.uk/) – UK based charity promoting good mental health
 - [Mind UK](https://www.mind.org.uk/) – Mental health charity providing advice and support
@@ -184,3 +194,6 @@ My style.css file was validated using the W3C CSS Validation Service to ensure t
 
 
 ## Credits
+- **Wireframes:** Created using [Balsamiq](https://balsamiq.com/).
+- **Inspiration:** Design and content ideas inspired by various mental health websites and resources.
+- **AI Assistance:** Content and code suggestions generated with GitHub Copilot and Microsoft Copilot.
