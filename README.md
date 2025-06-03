@@ -16,6 +16,8 @@ There is currently no backend functionality.
 - [Accounts](#accounts)
 - [AI Implementation](#ai-implementation)
 - [Testing and Validation](#testing-and-validation)
+    - [HTML Validation](#HTML-Validation)
+    - [CSS Validation](#CSS-Validation)
 - [Technology](#technology)
 - [References](#references)
 - [External Resource Links](#external-resource-links)
@@ -69,16 +71,21 @@ To deploy updates:
 
 ## Technology
 ### Built with:
-- **HTML5**: To structure content for the webpage
-- **CSS3**: For styling and layout, ensuring the site is visually appealing and accessible
-- **Bootstrap 5**: Provides a responsive grid system and prebuilt components for faster, consistent UI development
-- **Font Awesome**: Supplies scalable vector icons to enhance visuals
-- **Google Fonts**: Enables use of custom, web-friendly typography for improved readability and design
-- **Git**: To manage version control and track changes, efficiently throughout development process
-
+- **HTML5**: To structure content for the webpage.
+- **CSS3**: For styling and layout, ensuring the site is visually appealing and accessible.
+- **Bootstrap 5**: Provides a responsive grid system and prebuilt components for faster, consistent UI development.
+- **Font Awesome**: Supplies scalable vector icons to enhance visuals.
+- **Google Fonts**: Enables use of custom, web-friendly typography for improved readability and design.
+- **Git**: To manage version control and track changes efficiently throughout development process.
+- **GitHub**: For hosting the repository and managing the project.
+- **GitHub Copilot**: For coding assistance throughout the project.
 
 
 ## Testing and Validation
+### HTML Validation
+#### Tools Used: [W3C Markup Validation Service](https://validator.w3.org/)
+HTML file was validated using the W3C Markup Validation Service to ensure there are no syntax errors and that the code adheres to web standards.
+### CSS Validation
 
 ## References
 
@@ -86,5 +93,6 @@ To deploy updates:
 - [squoosh.app](https://squoosh.app/) - A tool for compressing and resizing images, squashing file size
 - [unsplash](https://unsplash.com/) - A source for free high-resolution images
 - [pexels](https://www.pexels.com/) - A source for free high-resolution images
+
 
 ## Credits
