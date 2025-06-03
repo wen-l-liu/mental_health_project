@@ -9,8 +9,10 @@ There is currently no backend functionality.
 ## Table of Contents
 - [Project Outline](#project-outline)
     - [Key Objectives](#key-objectives)
-- [User Stories](#user-stories)
 - [UX Design](#ux-design)
+    - [User Stories](#user-stories)
+    - [Colours](#Colours)
+    - [Wire Frames](#Wire-frames)
 - [Features](#features)
 - [Deployment / Dependencies](#deployment--dependencies)
 - [Accounts](#accounts)
@@ -36,7 +38,9 @@ This project aims to create an accessible, visually engaging single-page website
 - Provide clear links to trusted external resources for users seeking more in-depth information or support.
 - Use HTML, CSS, and Bootstrap to deliver a welcoming, well-organized, and supportive user experience.
 
-## User Stories
+## UX Design
+
+### User Stories
 [Github project](https://github.com/users/wen-l-liu/projects/6) for planning with user stories
 
 - As a site visitor, I want to see a positive, encouraging message about mental health as soon as I arrive, so that I feel welcomed and supported.
@@ -46,7 +50,22 @@ This project aims to create an accessible, visually engaging single-page website
 - As a site visitor, I want the website to have a consistent, calming design, so that I feel comfortable and supported while browsing.
 - As a site visitor, I want to easily find a way to make a donation, so that I can support the mission of Breathe & Believe and help provide accessible mental health resources to others.
 
-## UX Design
+### Colours
+![colour palette](documentation/images/breathe-palette.png)
+I wanted soft colours to convey calmness.
+As the project is a single page, I wanted more colours to help create seperation between each section.
+I chose the main pastel versions of the primary colours, green, red, and blue.
+The darker pine green is used for Logo colour and navbar links.
+The purple hightlight is only used as a hover link colour change.
+I kept white and black as they are just such versitle colours. Black just stands out from the pastel backgrounds.
+
+### Wireframes
+<details>
+<summary>Click to expand CSS Validation Screenshot</summary>
+
+![Balsamic Wireframes](documentation/images/Wireframes-breathe.png)
+</details>
+The wireframes illustrate the planned layout for the website, showing a clean, single-page design with clearly separated sections for tips, resources, and motivational content. Included the 2 pop up modals for contact us and donation form. They show intuitive navigation, responsive elements, and a calming visual hierarchy to ensure accessibility and ease of use across devices.
 
 ## Features
 
