@@ -454,36 +454,55 @@
         </section>
 
         <!-- Contact Us Modal Section -->
-        <div class="modal fade modal-lg" id="contact-us-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="contact-us-label" aria-hidden="true">
+        <div class="modal fade modal-lg" id="contact-us-modal" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="contact-us-label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-center">
-                        <h1 class="modal-title fs-3 px-2" id="contact-us-abel">The Worry Window - Send Us a Message</h1><br>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p class="p-2 fs-4">We'll get back to you with advice and guidance on what-ever you're dealing with.</p>
-                        <div class="p-2">
-                            <label for="email-input" class="form-label fs-4">Email address</label>
-                            <input type="email" class="form-control" id="email-input"
-                                placeholder="name@example.com" required>
+                <form class="" action="#" method="get" role="form">
+                    <div class="modal-content">
+                        <div class="modal-header justify-content-center">
+                            <h1 class="modal-title fs-3 px-2" id="contact-us-abel">The Worry Window - Send Us a Message
+                            </h1>
+                            <br>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="mb-3 p-2">
-                            <label for="topic-input" class="form-label fs-4">Topic</label>
-                            <input type="text" class="form-control" id="topic-input"
-                                placeholder="Any topic, we'll hear you out">
+
+                        <div class="modal-body">
+                            <p class="p-2 fs-4 mb-0">We'll get back to you with advice and guidance on what-ever you're
+                                dealing with.</p>
+                            <p class="fst-italic text-muted px-2">
+                                <small>
+                                    Please note: We are not a replacement for professional help. If you are in crisis or
+                                    need urgent support, contact a qualified mental health professional or emergency
+                                    services. Click <a href="https://www.samaritans.org/" target="_blank"
+                                        rel="noopener">here</a> for immediate help.
+                                </small>
+                            </p>
+                            <div class="p-2">
+                                <label for="email-input" class="form-label fs-4">Email address</label>
+                                <input type="email" class="form-control" id="email-input" placeholder="name@example.com"
+                                    required>
+                            </div>
+                            <div class="mb-3 p-2">
+                                <label for="topic-input" class="form-label fs-4">Topic</label>
+                                <input type="text" class="form-control" id="topic-input"
+                                    placeholder="Any topic, we'll hear you out">
+                            </div>
+                            <div class="mb-3 p-2">
+                                <label for="message-input" class="form-label fs-4">Message</label>
+                                <textarea class="form-control" id="message-input" rows="3" required></textarea>
+                            </div>
                         </div>
-                        <div class="mb-3 p-2">
-                            <label for="message-input" class="form-label fs-4">Message</label>
-                            <textarea class="form-control" id="message-input" rows="3" required></textarea>
+
+                        <div class="modal-footer justify-content-between">
+                            <a class="btn bg-misty-rose fs-4"
+                                href="https://www.mind.org.uk/need-urgent-help/using-this-tool/" target="_blank"
+                                aria-label="Opens link to Mind.org.uk with resources to help you now" role="button" data-toggle="tooltip" data-placement="bottom" title="Link to Mind.org.uk with resources to help you now">Need
+                                Help Now</a>
+                            <button type="submit" class=" btn bg-uranian-blue fs-4">Send it off</button>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class=" btn bg-uranian-blue fs-4">Send it off</button>
-                    </div>
-                </div>
+                </form>
             </div>
+        </div>
         </div>
 
         <!-- Donate Modal Section -->
