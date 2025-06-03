@@ -97,7 +97,22 @@ To deploy updates:
 ## Accounts
 - You need to sign up for a GitHub account to deploy website using GitHub Pages and to manage your project repository. Creating an account allows you to push code, track changes, and collaborate with others on GitHub. You may also need a Pro account if tou wish to have unlimited use of Github Copilot or any AI features.
 - To use Font Awesome icons, you need to set up a free Font Awesome Kit and include the provided script in your HTML. Visit [Font Awesome Kits](https://fontawesome.com/kits) to create and manage your kit.
+
 ## AI Implementation
+
+- GitHub Copilot provided intelligent code suggestions for HTML, CSS, and Bootstrap.
+    - Helped speed up building responsive layouts and accessible UI elements.
+    - Streamlined repetitive tasks and improved code quality.
+    - Ensured best practices were followed throughout development.
+- Assisted in troubleshooting validation issues, such as heading structure and CSS syntax.
+- Answered questions I had about the code, benefiting my learning and understanding.
+- Used Microsoft Copilot to generate Ai images
+    - Only ended up including one Ai image for meditation card, it's still not quite perfect for faces and people.
+- Both Copilots help to generate ideas for the website.
+    - Microsoft copilot for researching content to include external resources.
+    - Github Copilot generating text for cards, topics and subject matters.
+- Made the overall development process smoother and more efficient.
+    - It's a real time saver.
 
 ## Technology
 ### Built with:
