@@ -1,10 +1,11 @@
 # Breathe & Believe
+[Link to Live Website](https://wen-l-liu.github.io/mental_health_project/)
+
 ![Preview of Website](documentation/images/preview-site.jpg)
 # Introduction
 This is a project to demonstrate my learnings. Built with HTML, CSS, and Bootstrap components, this site seeks to provide helpful mental health tips and resources in an easy-to-navigate format. Keeping things simple with an accessible, and visually appealing single-page website.
 There is currently no backend functionality.
 
-## [Link to Live Website](https://wen-l-liu.github.io/mental_health_project/)
 
 ## Table of Contents
 - [Project Outline](#project-outline)
